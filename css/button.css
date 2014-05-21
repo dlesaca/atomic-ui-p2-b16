@@ -1,0 +1,9 @@
+a.btn {
+padding: .8em;
+border-radius: 5px;
+text-decoration: none;
+}
+
+.sitenav-button img{
+  vertical-align: middle;
+}

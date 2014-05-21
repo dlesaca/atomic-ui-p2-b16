@@ -1,0 +1,49 @@
+.summaryitem {
+  display: inline-block;
+  width: 25%;
+  margin: 1em;
+}
+.hero{
+  width: 100%;
+  border: 2px solid black;
+  padding: 80px 0;
+}
+
+
+.hero p {
+  max-width: 70%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

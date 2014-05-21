@@ -1,0 +1,82 @@
+body {
+  background: #5B7887; /*dark blue*/
+    }
+
+header {
+  background: #F3AC13;
+}
+
+h1 {
+  color: #FFFFFF; /*light grey*/
+}
+
+.menu-icon{
+  fill: #435c6e;
+}
+
+h2 {
+   color: #FFFFFF; /*white*/
+}
+
+h3 {
+   color: #f3ac13; /*yellow*/
+}
+
+p {
+  color: #FFFFFF; /*white*/
+}
+
+a {
+  color: #EF695F; /*red*/
+}
+
+a.btn {
+color: #FFFFFF;
+}
+
+footer {
+   color: #FFFFFF; /*white*/
+}
+
+nav a {
+color: #435c6e;
+}
+
+.sitenav-listitem a{
+  color: #FFFFFF;
+}
+
+.sitenav-listitem:hover a{
+  color: #435c6e;
+}
+
+.sitenav-button:hover .menu-icon{
+  fill: #FFFFFF;
+}
+
+.hero button {
+background-color: #EF695F;
+color: white;
+}
+
+a.btn:hover {
+  color: black;
+}
+a.btn{
+  background-color: #EF695F;
+}
+a.btn:active{
+  color: white;
+}
+
+.sitenav-list{
+background: rgba(67, 92, 110, 0.9);
+}
+
+.sitenav-list::before {
+border-bottom: 15px solid rgba(67, 92, 110, 0.9);
+}
+
+.summary {
+  background: #435C6E;
+}
