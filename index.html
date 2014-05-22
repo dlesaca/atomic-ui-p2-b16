@@ -12,6 +12,7 @@
     <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
 
     <!-- link to stylesheets -->
+    <link rel="stylesheet" type="text/css" href="css/stylesheets/base.css">
     <link rel="stylesheet" type="text/css" href="css/base.css">
     <link rel="stylesheet" type="text/css" href="css/layout.css">
     <link rel="stylesheet" type="text/css" href="css/font.css">
@@ -20,89 +21,94 @@
     <link rel="stylesheet" type="text/css" href="css/state.css">
     <link rel="stylesheet" type="text/css" href="css/theme.css">
     <link rel="stylesheet" type="text/css" href="css/button.css">
+    <link rel="stylesheet" type="text/css" href="css/stylesheets/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/stylesheets/skeleton.css">
   </head>
   <body>
-    <header class="col-12">
-      <img src="resources/logo.svg" role="logo" alt="site logo">
-      <nav>
-        <ul>
-          <li class="sitenav">
-            <a href="#">Login/Register</a>
-          </li>
-          <li class="sitenav-button sitenav">
-            <a role="button" href="#">
-              <svg class="menu-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
-                <g>
-                  <path d="M2 6h28v6h-28zM2 14h28v6h-28zM2 22h28v6h-28z" />
-                </g>
-              </svg>
-              <!-- <img src="resources/menu.svg" alt="show drop down menu"> -->
-            </a>
-            <menu class="sitenav-list" type="list" lable="dropdown-sitenav">
-              <li class="sitenav-listitem">
-                <a href="#">
-                  Report Vandalism
-                </a>
-              </li>
-              <li class="sitenav-listitem">
-                <a href="#">
-                  Emergency Chat
-                </a>
-              </li>
-              <li class="sitenav-listitem">
-                <a href="#">
-                  Related Services
-                </a>
-              </li>
-              <li class="sitenav-listitem">
-                <a href="#">
-                  Related Products
-                </a>
-              </li>
-              <li class="sitenav-listitem">
-                <a href="#">
-                  About Cover
-                </a>
-              </li>
-              <li class="sitenav-listitem">
-                <a href="#">
-                  Company Information
-                </a>
-              </li>
-              <li class="sitenav-listitem">
-                <a href="#">
-                  General Contact
-                </a>
-              </li>
-            </menu>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section class="hero">
-        <h1>let us help you.</h1>
-        <p>Fixie ethnic Odd Future, XOXO narwhal asymmetrical Intelligentsia whatever. Umami seitan pickled drinking vinegar. Ennui lomo farm-to-table cray narwhal.</p>
-        <a href="#" class="btn report">report vandalism</a>
-        <a href="#" class="btn chat">emergency chat</a>
-      </section>
-      <article class="summary">
-        <h2>how reporting vandalism works</h2>
-        <section class="summaryitem">
-          <h3>Describe the Incident</h3>
-          <p>Fixie ethnic Odd Future, XOXO narwhal asymmetrical Intelligentsia whatever. Umami seitan pickled drinking vinegar. Ennui lomo farm-to-table cray narwhal. </p>
-        </section>
-        <section class="summaryitem">
-          <h3>Capture the Incident</h3>
+    <div class="container">
+      <header class="sixteen columns">
+        <img src="resources/logo.svg" role="logo" alt="site logo">
+        <nav>
+          <ul>
+            <li class="sitenav">
+              <a href="#">Login/Register</a>
+            </li>
+            <li class="sitenav-button sitenav">
+              <a role="button" href="#">
+                <svg class="menu-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+                  <g>
+                    <path d="M2 6h28v6h-28zM2 14h28v6h-28zM2 22h28v6h-28z" />
+                  </g>
+                </svg>
+                <!-- <img src="resources/menu.svg" alt="show drop down menu"> -->
+              </a>
+              <menu class="sitenav-list" type="list" lable="dropdown-sitenav">
+                <li class="sitenav-listitem">
+                  <a href="#">
+                    Report Vandalism
+                  </a>
+                </li>
+                <li class="sitenav-listitem">
+                  <a href="#">
+                    Emergency Chat
+                  </a>
+                </li>
+                <li class="sitenav-listitem">
+                  <a href="#">
+                    Related Services
+                  </a>
+                </li>
+                <li class="sitenav-listitem">
+                  <a href="#">
+                    Related Products
+                  </a>
+                </li>
+                <li class="sitenav-listitem">
+                  <a href="#">
+                    About Cover
+                  </a>
+                </li>
+                <li class="sitenav-listitem">
+                  <a href="#">
+                    Company Information
+                  </a>
+                </li>
+                <li class="sitenav-listitem">
+                  <a href="#">
+                    General Contact
+                  </a>
+                </li>
+              </menu>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="clearfix">
+        <section class="hero sixteen columns">
+          <h1>let us help you.</h1>
           <p>Fixie ethnic Odd Future, XOXO narwhal asymmetrical Intelligentsia whatever. Umami seitan pickled drinking vinegar. Ennui lomo farm-to-table cray narwhal.</p>
+          <a href="#" class="btn report">report vandalism</a>
+          <a href="#" class="btn chat">emergency chat</a>
         </section>
-         <section class="summaryitem">
-          <h3>Schedule Estimation</h3>
-          <p>Fixie ethnic Odd Future, XOXO narwhal asymmetrical Intelligentsia whatever. Umami seitan pickled drinking vinegar. Ennui lomo farm-to-table cray narwhal.</p>
-        </section>
-    </main>
-    <footer>
-      Copyright eSurance @2014
-    </footer>
+        <article class="summary sixteen columns clearfix">
+          <h2>how reporting vandalism works</h2>
+          <section class="summaryitem one-third column">
+            <h3>Describe the Incident</h3>
+            <p>Fixie ethnic Odd Future, XOXO narwhal asymmetrical Intelligentsia whatever. Umami seitan pickled drinking vinegar. Ennui lomo farm-to-table cray narwhal. </p>
+          </section>
+          <section class="summaryitem one-third column">
+            <h3>Capture the Incident</h3>
+            <p>Fixie ethnic Odd Future, XOXO narwhal asymmetrical Intelligentsia whatever. Umami seitan pickled drinking vinegar. Ennui lomo farm-to-table cray narwhal.</p>
+          </section>
+           <section class="summaryitem one-third column">
+            <h3>Schedule Estimation</h3>
+            <p>Fixie ethnic Odd Future, XOXO narwhal asymmetrical Intelligentsia whatever. Umami seitan pickled drinking vinegar. Ennui lomo farm-to-table cray narwhal.</p>
+          </section>
+        </article>
+      </main>
+      <footer>
+        Copyright eSurance @2014
+      </footer>
+    </div>
   </body>
 </html>
