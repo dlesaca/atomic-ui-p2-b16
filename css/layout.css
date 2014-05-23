@@ -58,6 +58,7 @@ nav{
 nav ul{
   margin: 0;
   padding-left: 0;
+  z-index: 10000;
 }
 
 /*This was not being used for its original purpose*/
@@ -74,7 +75,7 @@ nav ul{
 }*/
 
 .summary {
-  padding: 4em 0;
+  padding: 3em 0;
 }
 
 /*Two summaryitem calls contradicting each other*/

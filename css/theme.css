@@ -5,3 +5,10 @@
   border-top: 1px solid #FFFFFF;
   cursor: pointer;
 }
+
+section.hero {
+	background-image: url(../hero-pic.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
