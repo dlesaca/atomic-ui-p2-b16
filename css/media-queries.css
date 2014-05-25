@@ -1,3 +1,14 @@
+@media (max-width: 768px) {
+  .logo,
+  .main-nav,
+  .main-nav li {
+    display: block;
+    width: initial;
+    margin: initial;
+  }
+}
+
+
 /*@media (max-width: 600px){
   .menu-icon{
     vertical-align: middle;

@@ -1,9 +1,5 @@
-.sitenav-listitem:last-child{
-  border-bottom: 1px solid #FFFFFF;
-}
-.sitenav-listitem{
-  border-top: 1px solid #FFFFFF;
-  cursor: pointer;
+.logo {
+	max-width: 200px;
 }
 
 section.hero {

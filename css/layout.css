@@ -4,11 +4,9 @@ body {
   margin: 0;
 }
 header{
-  text-align: left;
-  position: relative;
-  top: 0;
+  display: table;
+  width: 100%;
   height: 60px;
-  padding: 1em;
 }
 
 
@@ -42,18 +40,16 @@ This is a broken piece of code
     display:none;
   }
 */
-  .sitenav-listitem{
-  padding: 15px 10px;
-}
 
 /*Is this really layout?*/
-nav a{
-  text-decoration: none;
+/*nav a{
+  text-decoration: none;  
 }
 nav li{
   list-style: none;
+  display: inline-block;
 }
 
 footer {
   padding: 10px 0;
-}
+}*/

@@ -1,4 +1,4 @@
-.menu-icon{
+/*.menu-icon{
   vertical-align: middle;
 }
 
@@ -16,6 +16,10 @@
   right: 0;
   display: none;
   padding: 20px;
+}
+
+.sitenav-listitem{
+  padding: 15px 10px;
 }
 
 .sitenav-list::before{
@@ -50,4 +54,36 @@ nav ul{
 
 nav ul li {
   display: inline-block;
+}*/
+
+nav {
+  display: table;
+  width: 100%;
+  min-height: 73px;
+  vertical-align: middle;
 }
+
+.logo {
+  margin-top: 10px;
+}
+
+.main-nav li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.main-nav li a {
+  text-decoration: none;
+}
+
+.main-nav,
+.logo {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+
+
+
