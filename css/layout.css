@@ -7,49 +7,9 @@ header{
   display: table;
   width: 100%;
   height: 60px;
+  margin: auto;
 }
-
-
-/*This was not being used for its original purpose*/
-/*** Set the width for responsive design ***/
-/*.col-12{
-  width: calc(100% - 40px);
-  padding: 0 20px;
-}*/
-
-/*This was not being used*/
-/*.buttonwrapper {
-  max-width: 80%;
-  margin: 0 auto;
-}*/
 
 .summary {
   padding: 3em 0;
 }
-
-/*Two summaryitem calls contradicting each other*/
-/*.summaryitem{*/
-    /*width: 70%;*/
-   /* margin: 0 auto;*/
-  /*}*/
-/*
-
-This is a broken piece of code
-@media (max-width: 768px) {
-  .sitenav:nth-child(1){
-    display:none;
-  }
-*/
-
-/*Is this really layout?*/
-/*nav a{
-  text-decoration: none;  
-}
-nav li{
-  list-style: none;
-  display: inline-block;
-}
-
-footer {
-  padding: 10px 0;
-}*/

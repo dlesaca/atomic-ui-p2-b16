@@ -6,6 +6,10 @@ header {
   background: #F3AC13;
 }
 
+.logo a {
+  color: #EF695F;
+}
+
 h1 {
   color: #FFFFFF; /*light grey*/
 }

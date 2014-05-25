@@ -6,57 +6,22 @@
     width: initial;
     margin: initial;
   }
-}
 
-
-/*@media (max-width: 600px){
-  .menu-icon{
-    vertical-align: middle;
+  .logo {
+    margin-bottom: 10px;
   }
 
-  .sitenav{
-    display: inline-block;
-    padding-left: 15px;
-    height: 60px;
-    padding-top: 15px;
+  .main-nav li {
+    margin-bottom: 10px;
   }
 
-  .sitenav-list{
-    width: 300px;
-    position: absolute;
-    top: 45px;
-    right: 0;
-    display: none;
-    padding: 20px;
+  section.hero {
+    background-image: none;
   }
 
-  .sitenav-list::before{
-    content:"";
+  .btn {
     display: block;
-    position: absolute;
-    top: -13px;
-    right: 23px;
-    width: 0;
-    height: 0;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
+    max-width: 25%;
+    margin: 10px auto;
   }
-
-  img[role="logo"]{
-    width: auto;
-    height: 40px;
-    margin-top: 10px;
-  }
-
-  nav{
-    float: right;
-    height: 60px;
-    overflow: hidden;
-  }
-
-  nav ul{
-    margin: 0;
-    padding-left: 0;
-    z-index: 10000;
-  }
-}*/
+}
