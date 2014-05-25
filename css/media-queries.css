@@ -7,8 +7,16 @@
     margin: initial;
   }
 
+  nav.nav-menu {
+    display: hidden;
+  }
+
   .logo {
     margin-bottom: 10px;
+  }
+
+  .menu {
+    display: inline;
   }
 
   .main-nav li {
